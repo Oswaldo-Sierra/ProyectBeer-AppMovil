@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_form"
+    android:padding="24dp"
+    tools:context=".Sales.ui.ShowSalesActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/idTitleForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/FormSales_Title_CREATE"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTitleForm"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/FormSales_Subtitle_CREATE"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <!-- Campo Usuario -->
+    <EditText
+        android:id="@+id/inputSerialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtitle"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/local_drink"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormSales_Field1"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Campo Contraseña -->
+    <EditText
+        android:id="@+id/inputNumberOfBeerSold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputSerialNumber"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/store"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormSales_Field2"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+
+    <EditText
+        android:id="@+id/inputCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputNumberOfBeerSold"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/outline_account_circle_24"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormSales_Field4"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Botón Registrarse -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputCustomerName"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/FormSales_Button_CREATE"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <!-- Botón Volver -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAccept"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/ButtonBack"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

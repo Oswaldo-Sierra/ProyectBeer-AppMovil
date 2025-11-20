@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_form"
+    android:padding="24dp"
+    tools:context=".login.gui.LoginActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/idTitleForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/FormUser_Title_CREATE"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTitleForm"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/FormUser_Subtitle_CREATE"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <!-- Campo Usuario -->
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtitle"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/outline_account_circle_24"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormUser_Field1"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Campo Contraseña -->
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputUsername"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormUser_Field2"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Campo Confirmar Contraseña -->
+    <EditText
+        android:id="@+id/inputConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPassword"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:hint="@string/FormUser_Field3"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Botón Registrarse -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputConfirmPassword"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/FormUser_Button_CREATE"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <!-- Botón Volver -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAccept"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/ButtonBack"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_form"
+    android:padding="24dp"
+    tools:context=".login.gui.LoginActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/idTitleApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/app_Title"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSubtitleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTitleApp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/Login_Subtitule"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/InputuserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtitleLogin"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/app_InputUserName"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/inputPasswordUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InputuserName"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background_purple"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/app_InputUserPassword"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPasswordUser"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/text_button"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Soft_golden"
+        android:padding="14dp"
+        android:text="@string/ButtonBack"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/lblForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBack"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/Forget_Password"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <!-- Texto Otros -->
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/socialIcons"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Income"
+        android:textColor="@color/black" />
+
+    <!-- Iconos sociales -->
+    <LinearLayout
+        android:id="@+id/socialIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/twitter" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Proyecto Programacion II</string>
+
+    <string name="app_Title">Ingreso al sistema </string>
+
+    <string name="ButtonBack">Volver</string>
+
+    <string name="Intro_App_Title">Bienvenido a la aplicación</string>
+    <string name="Intro_App_text">Esta aplicación cumple fines didácticos para el aprendizaje y práctica de Android</string>
+    <string name="Intro_App_Login">INICIAR SESIÓN</string>
+    <string name="Intro_App_SignUp">REGISTRARSE</string>
+
+    <string name="Info_App_Title">Informacion del Creador de la App</string>
+    <string name="Info_App_text">Esta aplicación fue desarrollada por Javier Oswaldo Sierra Navas, estudiante de tercer semestre de Ingeniería en Sistemas.
+        Este proyecto le permitió comprender y aplicar conceptos clave del desarrollo de aplicaciones móviles en Android,
+        incluyendo el manejo de bases de datos SQLite, implementación de operaciones CRUD, y diseño de interfaces de usuario.
+    </string>
+    <string name="Info_App_Contact">Contacto: javier.sierra03@uptc.edu.co</string>
+
+    <string name="app_InputUserName">Ingrese su nombre se usuario</string>
+    <string name="app_InputUserPassword">Ingrese su Contraseña</string>
+    <string name="Login_Subtitule">Completa los datos para ingresar al sistema</string>
+    <string name="text_button">Aceptar</string>
+    <string name="Forget_Password">¿Olvido su Contraseña?</string>
+    <string name="Income">O Ingrese con:</string>
+    <string name="AddUser">Crear Usuario</string>
+
+    <string name="RecoverPassword_title">Recupear Contraseña</string>
+    <string name="RecoverPassword_subtitle">Complete todos los campos para recuperar su contraseña</string>
+    <string name="RecoverPassword_password">Nueva Contraseña</string>
+    <string name="RecoverPassword_ConfirmPassword">Confirme su contraseña</string>
+
+    <string name="TitleView">Dashboard</string>
+    <string name="Main_User">Ver Usuarios</string>
+    <string name="Main_AddUser">Crear Usuario</string>
+    <string name="Main_Beer">Ver Cervezas</string>
+    <string name="Main_AddBeer">Añadir Cervezas</string>
+    <string name="Main_Sales">Ver Ventas</string>
+    <string name="Main_AddSales">Añadir Ventas</string>
+    <string name="Main_Info">Información</string>
+    <string name="Main_Close">Cerrar Sesion</string>
+
+    <string name="cardUser_Name">Nombre Usuario</string>
+    <string name="cardUser_Password">Contraseña</string>
+    <string name="cardUser_Update">Actualizar</string>
+    <string name="cardUser_Delete">Eliminar</string>
+
+    <string name="cardBeer_Brand">Marca Cerverza</string>
+    <string name="cardBeer_SerialNumber">Numero de Serie</string>
+    <string name="cardBeer_Update">Actualizar</string>
+    <string name="cardBeer_Delete">Eliminar</string>
+
+    <string name="cardSale_CustomerName">Nombre del Cliente</string>
+    <string name="cardSales_SalesId">Id de la venta</string>
+    <string name="cardSales_Update">Actualizar</string>
+    <string name="cardSales_Delete">Eliminar</string>
+
+
+    <string name="FormUser_Title_CREATE">Crear Cuenta</string>
+    <string name="FormUser_Subtitle_CREATE">Completa los datos para registrarte</string>
+    <string name="FormUser_Button_CREATE">Registrarse</string>
+    <string name="FormUser_Title_UPDATE">Actualizar Cuenta</string>
+    <string name="FormUser_Subtitle_UPDATE">Completa los datos para Actulizar</string>
+    <string name="FormUser_Button_UPDATE">Actualizar</string>
+    <string name="FormUser_Field1">Nombre de usuario</string>
+    <string name="FormUser_Field2">Contraseña</string>
+    <string name="FormUser_Field3">Confirmar Contraseña</string>
+
+
+    <string name="Showbeer_Title">Manejo de Cervezas</string>
+    <string name="Showbeer_Desc">Listado de Cervezas</string>
+    <string name="ShowSales_Title">Manejo de Ventas</string>
+    <string name="ShowSales_Desc">Listado de Ventas</string>
+
+
+    <string name="FormBeer_Title_CREATE">Registrar Cerveza</string>
+    <string name="FormBeer_Subtitle_CREATE">Completa los datos para registrar cerveza</string>
+    <string name="FormBeer_Button_CREATE">Registrar</string>
+    <string name="FormBeer_Title_UPDATE">Actulizar Cerveza</string>
+    <string name="FormBeer_Subtitle_UPDATE">Completa los datos para actulizar cerveza</string>
+    <string name="FormBeer_Button_UPDATE">Actulizar</string>
+    <string name="FormBeer_Field1">Marca de la cerveza</string>
+    <string name="FormBeer_Field2">Tipo de cerveza</string>
+    <string name="FormBeer_Field3">Grado de alcohol(%)</string>
+    <string name="FormBeer_Field4">Amargor de la cerveza</string>
+    <string name="FormBeer_Field5">Provedor</string>
+    <string name="FormBeer_Field6">Precio Unitario</string>
+    <string name="FormBeer_Field7">Cantidad de cervezas</string>
+
+
+    <string name="FormSales_Title_CREATE">Registrar Venta</string>
+    <string name="FormSales_Subtitle_CREATE">Completa los datos para registrar Venta</string>
+    <string name="FormSales_Button_CREATE">Registrar</string>
+    <string name="FormSales_Title_UPDATE">Actulizar Venta</string>
+    <string name="FormSales_Subtitle_UPDATE">Completa los datos para actulizar venta</string>
+    <string name="FormSales_Button_UPDATE">Actualizar</string>
+    <string name="FormSales_Field1">Numero Serial de la Cerveza</string>
+    <string name="FormSales_Field2">Numero de cervezas</string>
+    <string name="FormSales_Field3">Fecha de la venta</string>
+    <string name="FormSales_Field4">Nombre del cliente</string>
+
+
+</resources>
